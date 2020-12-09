@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>	
+	
+<meta charset="UTF-8">
+<title>YouTube and video demonstration</title>
+	
+	
+<script>
+	
+	$(document).ready(function(){
+	
+		var figure = $(".video").hover( hoverVideo, hideVideo );
+
+		function hoverVideo(e) {  
+			$('video', this).get(0).play(); 
+		}
+
+		function hideVideo(e) {
+			$('video', this).get(0).pause(); 
+		}
+	
+	});
+	
+</script>
+	
+<style>
+	
+	#back{
+		padding-top: 20px;
+		padding-bottom: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 1000px;
+		background-color: #bbbb;
+		
+	}
+	
+	#center{
+		text-align: center;
+	}
+	
+	#myVideo{
+		display: inline-block;
+		height: 360px;
+	}
+	
+	.video{
+		margin-left: auto;
+    	margin-right: auto;
+	}
+	
+	
+	
+</style>	
+	
+</head>
+
+<body>
+	
+	<div id="back">
+	
+		<div id="center">
+
+
+			<h1>YouTube Video Player</h1>
+			<br>
+
+			<iframe 
+					width="640" height="360" src="https://www.youtube.com/embed/2LqzF5WauAw">
+			</iframe>
+
+			<br><br>
+
+			<h1>HTML5 Video Element (plays on hover)</h1>
+
+			<br>
+
+			<div id="myVideo">
+				<div class="video">
+
+					<video width="640" height="360" controls loop>
+					<source src="ocean.mp4" type="video/mp4">
+					</video>
+
+				</div>
+			</div>
+
+		</div>
+		
+	</div>
+	
+	
+</body>
+</html>

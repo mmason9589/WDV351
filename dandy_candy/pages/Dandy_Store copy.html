@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+	
+<link rel="stylesheet" type="text/css" href="candyStore.css">
+
+	
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+	  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
+<title>Dandy Candy Home</title>
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="candy.js"></script>
+	
+
+
+	
+</head>
+	
+	
+	<div id="main-container">
+	
+	<div id="header">
+		<nav class="navbar navbar-expand-sm  ">
+			<img style="z-index: 1000" id="logo" src="wrapper.png" width="200px" alt="logo">
+			<h1 id="headerName" style="margin-left: 250px;">Dandy Candy</h1>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			
+			  <div style="padding-right: 58px" class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="nav navbar-nav ml-auto">
+				  <li class="nav-item">
+					<a class="nav-link" href="Dandy_Home.html">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="Dandy_About.html">About</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="Dandy_Store.html">Store</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="Dandy_Contact.html">Contact</a>
+				  </li>
+					
+				<img class="cart" style="margin-top: 15px; margin-left: 10px; margin-right: 10px;" height="35px" src="checkout.png" alt="shopping cart">
+				
+				</ul>
+			</div>
+			
+		</nav>
+
+	</div>	
+	
+
+
+		
+	<body>
+	
+	<div class="bodyContainer">
+	
+	<h1>Store</h1>
+	</div>
+	
+	
+
+	</body>	
+	
+	
+	<footer id="footer">
+	
+		<div class="row">
+			
+			
+		  <div id="siteMap" class="column">
+			  	<h4><u>Site Map</u></h4>
+				<p>Home <br>
+				About <br>
+				Store <br>
+				Contact</p>
+		  </div>
+			
+		  <div class="column">
+			 <div id="logoSocial">
+				  <img src="wrapper.png" width="120px" alt="logo">
+				  <p id="socialIcons">
+						<img style="padding-right: 13px" src="Twitter.png" alt="twitter">
+						<img src="Facebook.png" alt="facebook">
+						<img style="padding-left: 13px" src="Instagram.png" alt="instagram">
+				  </p>
+			</div>
+		  </div>
+			
+		  <div id="subscribe" class="column">
+			<h4>Subscribe to our newsletter!</h4>
+			<input type="text" id="fname" name="fname">
+			<br>
+			<button id="signUp">Sign Up</button>
+		  </div>
+		</div>
+		
+	
+	</footer>	
+		
+	</div>
+	
+<script type="text/javascript">
+
+	
+	
+	function placeFooter() {
+		if( $(document.body).height() < $(window).height() ) {
+			$("#footer").css({position: "absolute", bottom:"0px", right:"0px", left:"0px"});
+		} else {
+			$("#footer").css({position: ""});
+		}
+	}
+
+
+placeFooter();
+
+</script>	
+	
+</html>

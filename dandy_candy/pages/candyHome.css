@@ -1,0 +1,152 @@
+
+
+.borderImgSm{
+	display: none;
+}
+
+
+#containerSelection{
+	text-align: center;
+	padding-top: 250px;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#selectionGrid{
+	margin-top: 70px;
+	margin-bottom: 70px;
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.categorySpace{
+	margin-top: 20px;
+}
+
+
+	#confirm{
+			margin-top: 70px;
+			text-align: center;
+			width: 500px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		#check{
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+
+
+	
+		#cancel{
+			margin-top: 70px;
+			text-align: center;
+			width: 500px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		#xmark{
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+	
+	
+
+@media  screen and (max-width: 576px){
+	
+
+	#confirm{
+		
+		width:340px;
+		
+		
+	}
+	
+	#cancel{
+		width: 340px;
+	}
+	
+	
+	
+	/*-------Body Container--------*/
+	
+	.borderImgLg{
+		display: none;
+	}
+	
+	.borderImgSm{
+		display:block;
+		width: 100%;
+	}
+	
+	
+	#containerSelection{
+		text-align: center;
+		padding-top: 250px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	
+	.bodyContainer{
+			text-align: center;
+			border: medium 1px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 1200px;
+		}
+
+		#carousel{
+			padding-top: 20px;
+			padding-bottom: 20px;
+			width:100%;
+			height: 100px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.carousel-caption{
+			font-size: 15px;
+			border-radius: 15px;
+			margin-left: auto;
+			margin-right: auto;
+			height: 120px;
+			width: 120px;
+			background: rgba(0, 0, 0, 0.5);
+		}
+	
+		.carousel-caption>h4{
+			font-size: 20px;
+		}
+	
+	
+		#hardCandy{
+			height: 150px;
+			width: auto;
+		}
+	
+		#selectionGrid>div{
+		}
+
+		#selectionGrid{
+		margin-top: 70px;
+		margin-bottom: 70px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		display: grid;
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
+
+	
+	
+	
+}

@@ -1,0 +1,142 @@
+
+
+
+#askTitle{
+	padding-top: 80px;
+	font-size: 40px;
+	font-family: archivo;
+}
+
+
+
+#formcontainer  {
+		
+				box-shadow: 2px 3px 8px #888888;
+		
+				border-radius: 5px;
+
+				background-color: #EEEEEE;
+
+				width: 550px;
+
+				margin: 10px auto;
+
+				padding-top: 20px;
+		
+				padding-bottom: 20px;
+
+				margin-top: 25px;
+		
+				margin-bottom: 110px;
+}
+			
+
+fieldset1 div  {
+		font-size: 20px;
+
+				}
+
+				
+
+fieldset2  {
+
+			width: 25em;
+			margin-right: 20px;
+
+			}
+
+			
+
+fieldset2 div  {
+
+				margin-bottom: 10px;
+
+				padding-bottom: 10px;
+
+				
+				}
+
+input, textarea, select  {
+
+						 font-size: 1.1em;
+
+						 padding: 2px 5px 4px;
+
+						 border-radius: 5px;
+
+						 margin-top:5px;
+
+						 order:2;
+
+						 flex: 1 1 auto;
+
+						}
+
+.contactLabel  {
+	
+		font-family: archivo;
+
+		order: 1;
+
+		width: 10em;
+
+		text-align: right;
+
+		padding-right: 0.5em;
+
+		}
+
+		
+
+.contactSubmit{
+  outline: none;
+  margin-top: 8px;
+  font-size: 17px;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  margin-right: 11%;
+  color: #fff;
+  background-color: #65B8FF;
+  border-radius: 5px;
+  box-shadow: 2px 3px 4px #888888;
+ 
+}
+
+
+input[type=submit]:hover {
+		  background-color: #0087FB;
+		}
+		
+
+input[type=submit]:active {
+		  background-color: #0061B5;
+		}
+								
+
+
+
+@media  screen and (max-width: 576px){
+	
+	
+	#formcontainer{
+		width: 340px;
+	}
+	
+	fieldset1 div{
+		text-align: center;
+	}
+	
+	.contactLabel{
+		order: 1;
+		width: 10em;
+		text-align: center;
+		padding-right: 0em;
+
+		}
+	
+	
+}
+
+	

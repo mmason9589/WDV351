@@ -1,0 +1,369 @@
+		
+		@font-face{
+			font-family: wonderbar;
+			src: url("fonts/Wonderbar-pALD.ttf");
+		}
+
+		@font-face{
+			font-family: skaters;
+			src: url("fonts/Skaters-w1gqP.ttf")
+
+		}
+
+		@font-face{
+			font-family: land;
+			src: url("fonts/LandasansUltraLight-qZ080.otf")
+
+		}
+
+		@font-face{
+			font-family: archivo;
+			src: url("fonts/Archivo-Regular.ttf")
+		}
+
+		#headerName{
+			margin-top: 10px;
+			font-family: wonderbar;
+			color: black;
+		}
+
+		header{
+			margin-left: auto;
+			margin-right: auto;
+			width: 1200px;
+			background-color: #FFFFFF;
+			box-shadow: 2px 3px 8px #888888;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+		}
+
+
+		/* Shopping cart effects */
+
+		#mobileCart{
+			display: none;
+		}
+
+
+		.cart{
+			outline: none;
+			position: absolute;
+			top: 14px;
+			right: 25px;
+			height: 50px;
+			padding-top: 10px;
+		}
+		
+
+		/* Navbar changes*/
+
+
+		#collapsibleNavbar{
+			padding-right: 58px
+		}
+
+		.nav-item{
+			padding: 15px;
+			text-decoration: none;
+			color: black;
+		}
+
+		.nav.navbar-nav.ml-auto li a {
+			text-decoration: none;
+			font-size: 20px;
+			font-family: skaters;
+			color: black;
+		}
+
+		.nav.navbar-nav.ml-auto li a:hover {
+					color: #65B8FF;
+				}
+		
+		.nav-item{ 
+			color: black;
+		}
+		
+		#logo{
+			z-index: 1000;
+			width: 200px;
+			position: absolute;
+			top: 7px;
+			left: 30px
+		}
+
+
+		/*Body Area*/
+
+		.bodyContainer{
+			text-align: center;
+			border: medium 1px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 1200px;
+		}
+
+		#carousel{
+			padding-top: 20px;
+			padding-bottom: 20px;
+			width: 1100px;
+			height: 400px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.carousel-caption{
+			border-radius: 15px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 220px;
+			background: rgba(0, 0, 0, 0.5);
+		}
+		
+		
+		.hrStyle{
+			display: none;
+			width: 70%;
+			height: 1px;
+			background-color: hsla(0,0%,42%,0.61);
+			margin-top: 35px
+		}
+		
+		/*Footer Area*/
+
+
+
+		input, textarea, select  
+		{
+			font-size: 1.1em;
+			padding: 2px 5px 4px;
+			border-radius: 5px;
+			margin-top:5px;
+			order:2;
+			flex: 1 1 auto;
+			}
+
+
+
+		footer{
+			padding-top: 10px;
+			height: 175px;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			background-color: #EEEEEE;
+			margin-left: auto;
+			margin-right: auto;
+			width: 1200px;
+			box-shadow: 2px 3px 8px #888888;
+		}
+		
+		#subscribe{
+			padding-left: 30px;
+		}
+		
+		#logoSocial{
+			padding-top: 12px;
+			text-align: center;
+		}
+		
+		#socialIcons{
+			padding-top: 13px;
+		}
+		
+		#siteMap{
+			padding-left: 250px;
+			text-align:  center;
+		}
+		
+		#signUp{
+			  outline: none;
+			  margin-top: 13px;
+			  display: inline-block;
+			  padding: 10px;
+			  padding-top: 5px;
+			  padding-bottom: 5px;
+			  font-size: 15px;
+			  cursor: pointer;
+			  text-align: center;
+			  color: #fff;
+			  background-color: #65B8FF;
+			  border: none;
+			  border-radius: 15px;
+			  box-shadow: 2px 3px 4px #888888;
+		}
+		
+		#signUp:hover 
+			{background-color: #0087FB}
+		
+		#signUp:active {
+		  background-color: #0061B5;
+		}
+		
+		/* Create three equal columns that floats next to each other */
+		.column {
+		  float: left;
+		  width: 33.33%;
+		  padding: 10px;
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+
+		/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+	@media  screen and (max-width: 576px){
+	
+			
+			/*-----------Header----------*/	
+			
+		html,body
+		{
+			width: 100%;
+			margin: 0px;
+			padding: 0px;
+			overflow-x: hidden; 
+		}
+		
+			
+		header{
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+			background-color: #FFFFFF;
+			box-shadow: 2px 3px 8px #888888;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			}	
+			
+		
+		#headerName{
+			display: none;
+		}	
+			
+		
+		#logo{
+			position: relative;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 10px;
+			margin-top: -8px;
+			z-index: 1000;
+			width: 80px;
+		}
+		
+		.cart{position: absolute;
+			left: 20px;
+			top: 5px;
+		}
+		
+		#webCart{
+			display: none;
+		}
+		
+		#mobileCart{
+			display: block;
+		}
+		
+		.custom-toggler .navbar-toggler-icon {
+
+		  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	
+		}
+	
+		.custom-toggler.navbar-toggler {
+			outline: none;
+		  	border-color: black;
+
+		} 
+		
+		
+		.nav-item{
+			text-align: right;
+		}
+			
+			
+		#collapsibleNavbar{
+			padding-right: 0px;
+		}	
+			
+		
+		/*-----------body----------*/
+		
+		
+		.bodyContainer{
+			width: 100%;
+		}
+		
+		
+		.hrStyle{
+			display: block;
+		}
+		
+		
+		
+		/*-----------Footer----------*/
+		
+		
+		
+		footer{
+			padding-top: 10px;
+			height: 540px;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			background-color: #EEEEEE;
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+			box-shadow: 2px 3px 8px #888888;
+		}
+		
+		.row{
+			margin-left: 0px;
+		}
+		
+		 .column {
+			padding-left: 0px;
+			padding-right: 0px;
+			width: 100%;
+		  }
+		
+		#siteMap{
+			padding-left: 0px;
+			text-align:  center;
+		}
+		
+		#subscribe{
+			padding-left: 0px;
+			margin-top: 20px;
+			text-align: center;
+		}
+			
+		
+
+
+
+
+
+		/*--------MISC PAGES--------*/
+
+
+		#confirm{
+
+			width: 350px;
+		}
+
+
+
+		.cancel{
+
+			width: 150px;
+
+		}
+		
+		
+		
+}
+	

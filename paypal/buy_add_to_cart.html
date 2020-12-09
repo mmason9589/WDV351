@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Shop</title>
+
+<style>
+
+	#main{
+		text-align: center;
+	}
+
+	table{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	hr{
+		margin-top: 50px;
+		margin-bottom: 50px;
+		height:2px;
+		border-width:0;
+		color:gray;
+		background-color:gray;
+		width: 30%;
+	}
+
+	nav{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 800px;
+		background-color: black;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	nav a  {
+			color:white;
+			text-decoration:none;
+			}
+
+		ul{
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+
+	nav li{
+		padding-left: 20px;
+		padding-right: 20px;
+		display: inline-block;
+	}
+
+	nav a:hover{
+		color: black;
+		background-color: white;
+		padding: 3px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	#project{
+		width: 800px;
+		background-color: black;
+		color:white;
+		display: inline-block;
+		margin: 0px;
+		margin-bottom: 4px;
+	}
+
+	#abso{
+		position: absolute;
+		margin-top: -32px;
+		margin-left: 670px;
+	}
+
+
+	div.sticky{
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		position: -webkit-sticky;
+		  position: sticky;
+		  top: 38px;
+	}
+
+
+</style>
+
+</head>
+
+<body>
+
+	<div id="main">
+
+		<p id="project">Academic Project</p>
+		<br>
+
+		<img width="800px"; src="BluE.png">
+
+		<br>
+
+		<nav>
+		<ul>
+			<li><a href="buy_add_to_cart.html">Home</a></li>
+			<li><a href="digital_shop.html">Digital</a></li>
+			<li><a href="donate_now_button.html">Donate</a></li>
+			<li><a href="subscribe_now_button.html">Newsletter</a></li>
+			<li><a href="membership_now_button.html">Membership</a></li>
+		</ul>
+		</nav>
+
+		<div class="sticky">
+			<div id="abso">
+					<form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" >
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+							<input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form>
+				</div>
+			</div>
+
+		<p>Blue Shirt: $5</p>
+
+		<form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="R4AT3C73WW6NG">
+				<input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+
+		<br>
+		<img height="300px"; src="blueshirt.jpg">
+
+		<hr>
+
+		<p>Blue Long Sleeve Shirt: $10</p>
+
+		<form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="YJ8AXQD6JZEX6">
+				<table>
+				<tr><td><input type="hidden" name="on0" value="Choose a Size">Choose a Size</td></tr><tr><td><select name="os0">
+					<option value="S">S </option>
+					<option value="M">M </option>
+					<option value="L">L </option>
+					<option value="XL">XL </option>
+				</select> </td></tr>
+				</table>
+				<input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+
+		<br>
+		<img height="300px"; src="longsleeve.png">
+
+		<hr>
+
+		<p>Blue Hoodie: $15</p>
+
+		<form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="382KANENY3VLS">
+				<table>
+				<tr><td><input type="hidden" name="on0" value="Choose a Size">Choose a Size</td></tr><tr><td><select name="os0">
+					<option value="S">S </option>
+					<option value="M">M </option>
+					<option value="L">L </option>
+					<option value="XL">XL </option>
+				</select> </td></tr>
+				</table>
+				<input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+
+		<br>
+		<img height="300px"; src="hoodie.webp">
+
+		<hr>
+
+
+		<p>Blue Winter Coat
+			<br>(Free Shipping)
+		</p>
+
+		<form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="47PMGHMMQF79N">
+				<table>
+				<tr><td><input type="hidden" name="on0" value="Choose a Size">Choose a Size</td></tr><tr><td><select name="os0">
+					<option value="S">S $45.00 USD</option>
+					<option value="M">M $50.00 USD</option>
+					<option value="L">L $55.00 USD</option>
+					<option value="XL">XL $60.00 USD</option>
+				</select> </td></tr>
+				</table>
+				<input type="hidden" name="currency_code" value="USD">
+				<input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+
+
+		<br>
+		<img height="300px"; src="wintercoat.jpg">
+
+		<hr>
+
+		<p>Custom Sleeveless Shirt: $15</p>
+
+		<form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="ZJQDVA9NGB99Q">
+				<table>
+				<tr><td><input type="hidden" name="on0" value="Custom phrase on shirt">Custom phrase on shirt</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
+				</table>
+				<input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+
+		<br>
+		<img height="300px"; src="sleeveless.jpg">
+
+		<hr>
+		<br>
+		<a href="#main">Back to Top</a>
+		<br>
+		<br>
+
+	</div>
+</body>
+</html>
